@@ -1,0 +1,153 @@
+2025-11-21 16:16:29,277 - INFO - MAking the vectorstore....
+2025-11-21 16:16:29,278 - INFO - Loading files from data/
+2025-11-21 16:16:35,807 - INFO - Sucesfully fetched 759 documents
+2025-11-21 16:16:35,807 - INFO - Splitting 759 documents into chunks
+2025-11-21 16:16:35,898 - INFO - Generated 7080 text chunks
+2025-11-21 16:16:35,898 - INFO - Generating your new vectorstore
+2025-11-21 16:16:35,898 - INFO - Intializing our Huggingface embedding model
+2025-11-21 16:16:35,898 - ERROR - Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: /Users/dattateja/Documents/RAG-Project/ALL+MATERIAL+--+MEDICAL+RAG+CHATBOT/MEDICAL RAG CHATBOT/Medical-RAG-Chatbot/app/components/embeddings.py | Line: 12
+2025-11-21 16:16:35,898 - ERROR - Failed to craete new vectorstore  | Error: Error occured while loading embedding model | Error: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`. | File: /Users/dattateja/Documents/RAG-Project/ALL+MATERIAL+--+MEDICAL+RAG+CHATBOT/MEDICAL RAG CHATBOT/Medical-RAG-Chatbot/app/components/embeddings.py | Line: 12 | File: /Users/dattateja/Documents/RAG-Project/ALL+MATERIAL+--+MEDICAL+RAG+CHATBOT/MEDICAL RAG CHATBOT/Medical-RAG-Chatbot/app/components/vector_store.py | Line: 38
+2025-11-21 16:16:35,898 - INFO - Vectorstore created sucesfully....
+2025-11-21 16:19:43,231 - INFO - MAking the vectorstore....
+2025-11-21 16:19:43,231 - INFO - Loading files from data/
+2025-11-21 16:19:50,149 - INFO - Sucesfully fetched 759 documents
+2025-11-21 16:19:50,149 - INFO - Splitting 759 documents into chunks
+2025-11-21 16:19:50,241 - INFO - Generated 7080 text chunks
+2025-11-21 16:19:50,241 - INFO - Generating your new vectorstore
+2025-11-21 16:19:50,241 - INFO - Intializing our Huggingface embedding model
+2025-11-21 16:19:50,277 - INFO - Use pytorch device_name: mps
+2025-11-21 16:19:50,277 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 16:19:53,408 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 16:20:09,344 - INFO - Loading faiss.
+2025-11-21 16:20:09,876 - INFO - Successfully loaded faiss.
+2025-11-21 16:20:09,966 - INFO - Saving vectorstoree
+2025-11-21 16:20:09,982 - INFO - Vectostore saved sucesfulyy...
+2025-11-21 16:20:09,984 - INFO - Vectorstore created sucesfully....
+2025-11-21 16:50:06,357 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 16:50:06,357 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 16:59:50,019 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 16:59:50,019 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 17:17:50,435 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 17:17:50,436 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 17:22:03,235 - INFO - 127.0.0.1 - - [21/Nov/2025 17:22:03] "GET / HTTP/1.1" 200 -
+2025-11-21 17:22:03,506 - INFO - 127.0.0.1 - - [21/Nov/2025 17:22:03] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 17:23:23,992 - INFO - Loading vector store for context
+2025-11-21 17:23:23,992 - INFO - Intializing our Huggingface embedding model
+2025-11-21 17:23:25,370 - INFO - Use pytorch device_name: mps
+2025-11-21 17:23:25,370 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 17:23:28,689 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 17:23:28,690 - INFO - Loading existing vectorstore...
+2025-11-21 17:23:28,692 - INFO - Loading faiss.
+2025-11-21 17:23:28,725 - INFO - Successfully loaded faiss.
+2025-11-21 17:23:28,749 - INFO - Loading LLM from HuggingFace
+2025-11-21 17:23:28,787 - INFO - LLM loaded sucesfully...
+2025-11-21 17:23:28,788 - INFO - Successfully created the QA chain
+2025-11-21 17:23:30,380 - INFO - 127.0.0.1 - - [21/Nov/2025 17:23:30] "POST / HTTP/1.1" 200 -
+2025-11-21 17:27:01,622 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 17:27:01,622 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 17:28:32,534 - INFO - Loading vector store for context
+2025-11-21 17:28:32,535 - INFO - Intializing our Huggingface embedding model
+2025-11-21 17:28:33,476 - INFO - Use pytorch device_name: mps
+2025-11-21 17:28:33,476 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 17:28:35,841 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 17:28:35,841 - INFO - Loading existing vectorstore...
+2025-11-21 17:28:35,842 - INFO - Loading faiss.
+2025-11-21 17:28:35,864 - INFO - Successfully loaded faiss.
+2025-11-21 17:28:35,889 - INFO - Loading LLM from HuggingFace
+2025-11-21 17:28:35,923 - INFO - LLM loaded sucesfully...
+2025-11-21 17:28:35,923 - INFO - Successfully created the QA chain
+2025-11-21 17:28:36,221 - INFO - 127.0.0.1 - - [21/Nov/2025 17:28:36] "POST / HTTP/1.1" 200 -
+2025-11-21 17:28:46,873 - INFO - 127.0.0.1 - - [21/Nov/2025 17:28:46] "GET / HTTP/1.1" 200 -
+2025-11-21 17:28:55,659 - INFO - 127.0.0.1 - - [21/Nov/2025 17:28:55] "POST / HTTP/1.1" 200 -
+2025-11-21 17:32:33,094 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 17:32:33,094 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 17:45:53,258 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 17:45:53,258 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 17:51:40,321 - INFO - 127.0.0.1 - - [21/Nov/2025 17:51:40] "GET / HTTP/1.1" 200 -
+2025-11-21 17:51:41,077 - INFO - 127.0.0.1 - - [21/Nov/2025 17:51:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-11-21 17:51:56,209 - INFO - Loading vector store for context
+2025-11-21 17:51:56,209 - INFO - Intializing our Huggingface embedding model
+2025-11-21 17:51:57,217 - INFO - Use pytorch device_name: mps
+2025-11-21 17:51:57,217 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 17:51:59,415 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 17:51:59,415 - INFO - Loading existing vectorstore...
+2025-11-21 17:51:59,419 - INFO - Loading faiss.
+2025-11-21 17:51:59,442 - INFO - Successfully loaded faiss.
+2025-11-21 17:51:59,464 - INFO - Loading LLM from HuggingFace: google/flan-t5-base
+2025-11-21 17:51:59,508 - INFO - LLM loaded successfully...
+2025-11-21 17:51:59,509 - INFO - Successfully created the QA chain
+2025-11-21 17:52:00,202 - INFO - 127.0.0.1 - - [21/Nov/2025 17:52:00] "POST / HTTP/1.1" 200 -
+2025-11-21 17:52:38,042 - INFO - 127.0.0.1 - - [21/Nov/2025 17:52:38] "POST / HTTP/1.1" 200 -
+2025-11-21 17:53:51,644 - INFO - 127.0.0.1 - - [21/Nov/2025 17:53:51] "POST / HTTP/1.1" 200 -
+2025-11-21 17:54:15,703 - INFO - 127.0.0.1 - - [21/Nov/2025 17:54:15] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 17:54:35,445 - INFO - 127.0.0.1 - - [21/Nov/2025 17:54:35] "POST / HTTP/1.1" 200 -
+2025-11-21 17:54:35,462 - INFO - 127.0.0.1 - - [21/Nov/2025 17:54:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 17:56:11,015 - INFO - 127.0.0.1 - - [21/Nov/2025 17:56:11] "POST / HTTP/1.1" 200 -
+2025-11-21 17:56:11,042 - INFO - 127.0.0.1 - - [21/Nov/2025 17:56:11] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 18:07:40,610 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 18:07:40,611 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 18:07:57,478 - INFO - 127.0.0.1 - - [21/Nov/2025 18:07:57] "GET / HTTP/1.1" 200 -
+2025-11-21 18:08:01,602 - INFO - 127.0.0.1 - - [21/Nov/2025 18:08:01] "GET / HTTP/1.1" 200 -
+2025-11-21 18:08:17,636 - INFO - 127.0.0.1 - - [21/Nov/2025 18:08:17] "GET / HTTP/1.1" 200 -
+2025-11-21 18:08:52,531 - INFO - Loading vector store for context
+2025-11-21 18:08:52,531 - INFO - Intializing our Huggingface embedding model
+2025-11-21 18:08:53,587 - INFO - Use pytorch device_name: mps
+2025-11-21 18:08:53,587 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 18:08:56,107 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 18:08:56,107 - INFO - Loading existing vectorstore...
+2025-11-21 18:08:56,109 - INFO - Loading faiss.
+2025-11-21 18:08:56,131 - INFO - Successfully loaded faiss.
+2025-11-21 18:08:56,155 - INFO - Loading LLM from HuggingFace: google/flan-t5-base
+2025-11-21 18:08:56,190 - INFO - LLM loaded successfully...
+2025-11-21 18:08:56,190 - INFO - Successfully created the QA chain
+2025-11-21 18:08:56,523 - INFO - 127.0.0.1 - - [21/Nov/2025 18:08:56] "POST / HTTP/1.1" 200 -
+2025-11-21 18:09:22,554 - INFO - 127.0.0.1 - - [21/Nov/2025 18:09:22] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 18:10:15,874 - INFO - 127.0.0.1 - - [21/Nov/2025 18:10:15] "POST / HTTP/1.1" 200 -
+2025-11-21 18:10:39,578 - INFO - 127.0.0.1 - - [21/Nov/2025 18:10:39] "POST / HTTP/1.1" 200 -
+2025-11-21 18:10:47,519 - INFO - 127.0.0.1 - - [21/Nov/2025 18:10:47] "[32mGET /clear HTTP/1.1[0m" 302 -
+2025-11-21 18:10:47,526 - INFO - 127.0.0.1 - - [21/Nov/2025 18:10:47] "GET / HTTP/1.1" 200 -
+2025-11-21 18:10:50,252 - INFO - 127.0.0.1 - - [21/Nov/2025 18:10:50] "POST / HTTP/1.1" 200 -
+2025-11-21 18:11:08,274 - INFO - 127.0.0.1 - - [21/Nov/2025 18:11:08] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 18:11:24,328 - INFO - 127.0.0.1 - - [21/Nov/2025 18:11:24] "POST / HTTP/1.1" 200 -
+2025-11-21 18:11:24,350 - INFO - 127.0.0.1 - - [21/Nov/2025 18:11:24] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 18:11:35,225 - INFO - 127.0.0.1 - - [21/Nov/2025 18:11:35] "POST / HTTP/1.1" 200 -
+2025-11-21 18:11:35,242 - INFO - 127.0.0.1 - - [21/Nov/2025 18:11:35] "[33mGET /.well-known/appspecific/com.chrome.devtools.json HTTP/1.1[0m" 404 -
+2025-11-21 18:15:03,791 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5001
+ * Running on http://192.168.1.116:5001
+2025-11-21 18:15:03,791 - INFO - [33mPress CTRL+C to quit[0m
+2025-11-21 18:15:13,066 - INFO - 127.0.0.1 - - [21/Nov/2025 18:15:13] "GET / HTTP/1.1" 200 -
+2025-11-21 18:15:39,247 - INFO - Loading vector store for context
+2025-11-21 18:15:39,247 - INFO - Intializing our Huggingface embedding model
+2025-11-21 18:15:40,231 - INFO - Use pytorch device_name: mps
+2025-11-21 18:15:40,231 - INFO - Load pretrained SentenceTransformer: sentence-transformers/all-MiniLM-L6-v2
+2025-11-21 18:15:42,370 - INFO - Huggingface embedding model loaded sucesfully....
+2025-11-21 18:15:42,370 - INFO - Loading existing vectorstore...
+2025-11-21 18:15:42,378 - INFO - Loading faiss.
+2025-11-21 18:15:42,405 - INFO - Successfully loaded faiss.
+2025-11-21 18:15:42,429 - INFO - Loading LLM from HuggingFace: google/flan-t5-base
+2025-11-21 18:15:42,469 - INFO - LLM loaded successfully...
+2025-11-21 18:15:42,470 - INFO - Successfully created the QA chain
+2025-11-21 18:15:42,824 - INFO - 127.0.0.1 - - [21/Nov/2025 18:15:42] "POST / HTTP/1.1" 200 -
